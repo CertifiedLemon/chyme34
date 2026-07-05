@@ -24,12 +24,15 @@
 	</center> 
   </div>
 
-<audio src="../../sources/unknown/noise1.wav" controls autoplay loop></audio>
+<audio id="noise1" src="../../sources/unknown/noise1.wav" autoplay loop></audio>
 <script>
 	window.onload = function() {
-		var audio = document.getElementById("background-sound");
-		audio.play().catch(function(error) {
-		console.log("Autoplay prevented: User must interact with the page first.");
+		var audio = document.getElementById("noise1");
+		window.addEventListener('mousemove', function startAudio() {
+			audio.play()
+				.then(function() {
+					window.removeEventListener('mousemove', startAudio);
+				});
 			});
 		};
 </script>
