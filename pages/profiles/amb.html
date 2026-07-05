@@ -24,14 +24,14 @@
 	</center> 
   </div>
 
-<audio id="noise1" src="../../sources/unknown/noise1.wav" autoplay loop></audio>
+<audio id="noise1" src="../../sources/unknown/noise1.wav" loop></audio>
 <script>
 	window.onload = function() {
 		var audio = document.getElementById("noise1");
-		window.addEventListener('mousemove', function startAudio() {
+		document.addEventListener('click', function startAudio() {
 			audio.play()
 				.then(function() {
-					window.removeEventListener('mousemove', startAudio);
+					document.removeEventListener('click', startAudio);
 				});
 			});
 		};
