@@ -25,6 +25,14 @@
   </div>
 
 <audio src="../../sources/unknown/noise1.wav" controls autoplay loop></audio>
-
+<script>
+	window.onload = function() {
+		var audio = document.getElementById("background-sound");
+		audio.play().catch(function(error) {
+		console.log("Autoplay prevented: User must interact with the page first.");
+			});
+		};
+</script>
+	
 </body>
 </html>
