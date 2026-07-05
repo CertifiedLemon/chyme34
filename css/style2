@@ -1,1 +1,4 @@
-
+body.amb-pg
+  {
+    background-image: url("../sources/img/assets/bg3.png");
+  }
