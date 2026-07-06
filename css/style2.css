@@ -19,7 +19,6 @@ body#darkbg
     display: flex;
     justify-content: center;
     align-items: center;
-    cursor: help;
   }
 
 #start
