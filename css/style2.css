@@ -6,6 +6,10 @@ body.amb
 body#darkbg
   {
     background-color: #000000;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%; 
   }
 
 #hello
@@ -19,4 +23,6 @@ body#darkbg
     justify-content: center;
     align-items: center;
     cursor: help;
+    height: 100vh;
+    width: 100vh;
   }
