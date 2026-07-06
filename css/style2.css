@@ -8,7 +8,15 @@ body#darkbg
     background-color: #000000;
   }
 
-div#hello
+#hello
   {
     
+  }
+
+#start
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: help;
   }
