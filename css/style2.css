@@ -1,8 +1,10 @@
+/* AMB.HTML */
 body.amb
   {
     background-image: url("../sources/img/assets/pm.jpg");
   }
 
+/* MARTYR.HTML */
 body#darkbg
   {
     background-color: #000000;
@@ -18,6 +20,9 @@ body#darkbg
     justify-content: center;
     align-items: center;
     cursor: help;
-    height: 100vh;
-    width: 100vh;
+  }
+
+#start
+  {
+    cursor: help;
   }
