@@ -16,6 +16,7 @@ body#darkbg
 
 #hello
   {
+    border: 1px dotted #ffffff;
     display: flex;
     justify-content: center;
     align-items: center;
