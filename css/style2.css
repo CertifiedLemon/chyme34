@@ -29,6 +29,7 @@ body#darkbg
 	align-items: center;
 	text-align: center;
 	border-radius: 1em;
+	gap: 20px;   
   }
 
 #start
