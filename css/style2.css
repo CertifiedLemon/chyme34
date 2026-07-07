@@ -37,6 +37,14 @@ body#darkbg
     cursor: help;
 	}
 
+#martyr1
+	{
+	display: none !important;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	}
+
 #side-con
 	{
 	display: flex;
