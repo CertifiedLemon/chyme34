@@ -12,12 +12,14 @@ body#darkbg
     padding: 0;
     height: 100%;
     width: 100%; 
+	justify-content: center;
+	align-items: center;
+	display: flex;
   }
 
 #vid-win
   {
 	background-color: #000000;
-	margin: 10px auto 10px auto;
 	height: 600px;
 	width: 800px;
 	border: 1px solid #ffffff;
