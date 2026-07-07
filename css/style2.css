@@ -16,12 +16,16 @@ body#darkbg
 
 #hello
   {
-	background-color: #63db67;
-	margin: 5px auto 5px auto;
-	border: 1px solid #57892d;
+	background-color: #000000;
+	margin: 10px auto 10px auto;
+	width: 800px;
+	border: 1px solid #ffffff;
 	padding: 15px;
-	text-align: left;
-	border-radius: 4em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	border-radius: 1em;
   }
 
 #start
