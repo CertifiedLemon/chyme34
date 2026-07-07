@@ -24,8 +24,19 @@
 		<img src="../../../sources/unknown/snowy.png"
 		style="width: 60%; height: auto;">
 	</div>
+	
+<!-- SCRIPT -->
+<script>
+	const startBtn = document.getElementById('start');
+	const helloDiv = document.getElementById('hello');
+	const videoEl = document.getElementById('my-video');
+
+	startBtn.addEventListener('click', () => {
+	helloDiv.style.display = 'none';   /* Hides the button container */
+	videoEl.style.display = 'block';  /* Shows the video */
+	videoEl.play();                   /* Starts playback */
+    });
+</script>
 			
 </body>
-		
-
 </html>
