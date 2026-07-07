@@ -22,7 +22,7 @@
 			
 	<div id="side-con">
 		<img src="../../../sources/unknown/snowy.png"
-		style="width: 60%; height: auto;">
+		style="width: 75%; height: auto;">
 	</div>
 	
 <!-- SCRIPT -->
@@ -32,9 +32,9 @@
 	const videoEl = document.getElementById('martyr1');
 
 	startBtn.addEventListener('click', () => {
-	helloDiv.style.display = 'none';   /* Hides the button container */
-	videoEl.style.display = 'block';  /* Shows the video */
-	videoEl.play();                   /* Starts playback */
+	helloDiv.style.display = 'none';
+	videoEl.style.display = 'block';
+	videoEl.play();
     });
 
 	videoEl.addEventListener('ended', () => {
