@@ -2,9 +2,6 @@ const specialAudio = new Audio("../sources/unknown/ontime.mp3");
 let hasPlayed = false;
 let isAudioUnlocked = false;
 
-// A separate, silent, throwaway audio purely to satisfy the browser's
-// autoplay policy — this NEVER touches specialAudio, so nothing can
-// interfere with the real trigger later.
 const silentUnlocker = new Audio(
     "data:audio/wav;base64,UklGRiQAAABXQVZFZm10IBAAAAABAAEAQB8AAEAfAAABAAgAZGF0YQAAAAA="
 );
@@ -30,8 +27,7 @@ function updateLinkAndAudio() {
     const now = new Date();
     const hours = now.getHours();
     const minutes = now.getMinutes();
-
-    // 8:31 PM check
+    
     if (hours === 20 && minutes === 31) {
         linkElement.href = "sublevel1/martyr.html";
 
