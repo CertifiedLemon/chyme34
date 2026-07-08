@@ -9,4 +9,3 @@ function checkAccessTime() {
 }
 
 checkAccessTime();
-setInterval(checkAccessTime, 1000);
